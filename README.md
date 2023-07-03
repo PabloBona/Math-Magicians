@@ -1,9 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
- <br/>
+ <br>
  <h1 style="color:rgb(87, 247, 255);border: 3px solid rgb(87, 247, 255);">Math Magicians</h1>
- <br/>
+ <br>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -31,8 +31,9 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
-
+ 
 <!-- PROJECT DESCRIPTION -->
+<br>
 
 # 📖 Math Magicians (Math-Magicians) <a name="Math-Magicians"></a>
 
@@ -67,15 +68,16 @@ The following stacks were used
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+# 🚀 Live Demo <a name="live-demo"></a>
 
 <a href="#">Soon</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+<br>
 
-## 💻 Getting Started <a name="getting-started"></a>
+# 💻 Getting Started <a name="getting-started"></a>
 
 
 Clone this repository to your desired folder:
@@ -86,8 +88,9 @@ Example commands:
   cd my-folder
   git clone git@github.com:PabloBona/math-magicians.git
 ```
+<br>
 
-### Install
+# 📖 Install
 
 Install this project's dependencies with:
 
@@ -95,7 +98,9 @@ Install this project's dependencies with:
 npm install
 `
 
-### Usage
+<br>
+
+# 📖 Usage
 
 To run the project, execute the following command:
 
@@ -109,13 +114,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### Run tests
+<br>
+
+# 📖 Run tests
 
 ```bash
   npm test
 ```
 
-### Run linterns tests
+<br>
+
+# 📖 Run linterns tests
 
 If you follow the tutorial above to setup linters then you can run these tests
 
@@ -132,7 +141,10 @@ or if you use css then run this instead of the latter command above
 ```$
   npx stylelint "**/*.{css,scss}"
 ```
-## Available Scripts
+
+<br>
+
+# Available Scripts
 
 In the project directory, you can run:
 
