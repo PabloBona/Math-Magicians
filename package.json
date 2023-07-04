@@ -14,8 +14,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --detectOpenHandles",
+    "eject": "react-scripts eject",
+    "lint": "npx stylelint \"**/*.{css,scss}\" && npx eslint \"**/*.{js,jsx}\""
   },
   "eslintConfig": {
     "extends": [
