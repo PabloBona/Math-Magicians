@@ -70,9 +70,6 @@ The following stacks were used
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 <br>
 
