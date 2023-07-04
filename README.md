@@ -81,7 +81,6 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```bash
-  cd my-folder
   git clone git@github.com:PabloBona/Math-Magicians.git
 ```
 <br>
