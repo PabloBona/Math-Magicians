@@ -82,17 +82,17 @@ Example commands:
 
 ```bash
   cd my-folder
-  git clone git@github.com:PabloBona/math-magicians.git
+  git clone git@github.com:PabloBona/Math-Magicians.git
 ```
 <br>
 
 # 📖 Install
 
 Install this project's dependencies with:
-
-`
+```
+cd Math-Magicians
 npm install
-`
+```
 
 <br>
 
