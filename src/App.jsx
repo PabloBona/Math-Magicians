@@ -1,9 +1,10 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Math Magicians</h1>
+    <div className="container">
+      <h1 className="text-center mt-5 text-light title">Math Magicians</h1>
     </div>
   );
 }

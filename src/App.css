@@ -1,15 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@700&display=swap');
 
 * {
   background-color: rgb(38, 44, 44);
-  font-family: 'Bebas Neue', sans-serif;
 }
 
-.App {
-  margin: 0 auto;
-  padding-top: 2rem;
-  text-align: center;
-  color: #fff;
+.title {
   letter-spacing: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: 'Orbitron', sans-serif;
 }
