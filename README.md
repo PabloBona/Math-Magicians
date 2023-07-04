@@ -62,7 +62,9 @@ The following stacks were used
 
 ### Key Features <a name="key-features"></a>
 
- 
+- **ReactJS library**
+- **Using JSX syntax**
+- **Unit test with jest**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
