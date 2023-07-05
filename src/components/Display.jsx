@@ -10,7 +10,11 @@ const Display = ({ calculatorData }) => (
 );
 
 Display.propTypes = {
-  calculatorData: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  calculatorData: PropTypes.shape({
+    total: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    next: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    operation: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  }).isRequired,
 };
 
 export default Display;
