@@ -17,7 +17,7 @@ const RowButtons = () => {
   return (
     <>
       <Display calculatorData={calculatorData} />
-      <div className="buttons col-8 col-6 d-flex justify-content-center flex-wrap">
+      <div className="col-8 col-6 d-flex justify-content-center flex-wrap">
         <button onClick={() => handleButtonClick('AC')} type="submit" className="btn btn-light rounded-0 border py-2 w-25">AC</button>
         <button onClick={() => handleButtonClick('+/-')} type="submit" className="btn btn-light rounded-0 border py-2 w-25">±</button>
         <button onClick={() => handleButtonClick('%')} type="submit" className="btn btn-light rounded-0 border py-2 w-25">%</button>
