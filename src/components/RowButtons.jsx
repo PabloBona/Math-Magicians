@@ -1,14 +1,7 @@
-import React, { useState } from 'react';
-import calculate from '../logic/calculate';
-import Display from './Display';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const RowButtons = () => {
-  const [calculatorData, setCalculatorData] = useState({
-    total: null,
-    next: null,
-    operation: null,
-  });
-
+const RowButtons = ({ calculatorData, setCalculatorData, calculate }) => {
   const handleButtonClick = (buttonName) => {
     const newData = calculate(calculatorData, buttonName);
     setCalculatorData(newData);
@@ -16,7 +9,6 @@ const RowButtons = () => {
 
   return (
     <>
-      <Display calculatorData={calculatorData} />
       <div className="col-8 col-6 d-flex justify-content-center flex-wrap">
         <button onClick={() => handleButtonClick('AC')} type="submit" className="btn btn-light rounded-0 border py-2 w-25">AC</button>
         <button onClick={() => handleButtonClick('+/-')} type="submit" className="btn btn-light rounded-0 border py-2 w-25">±</button>
@@ -40,6 +32,16 @@ const RowButtons = () => {
       </div>
     </>
   );
+};
+
+RowButtons.propTypes = {
+  calculatorData: PropTypes.shape({
+    total: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    next: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    operation: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  }).isRequired,
+  setCalculatorData: PropTypes.func.isRequired,
+  calculate: PropTypes.func.isRequired, // Agregar la validación para 'calculate'
 };
 
 export default RowButtons;
