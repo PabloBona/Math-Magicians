@@ -41,7 +41,7 @@ RowButtons.propTypes = {
     operation: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   }).isRequired,
   setCalculatorData: PropTypes.func.isRequired,
-  calculate: PropTypes.func.isRequired, // Agregar la validación para 'calculate'
+  calculate: PropTypes.func.isRequired,
 };
 
 export default RowButtons;
