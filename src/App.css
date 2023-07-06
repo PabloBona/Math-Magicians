@@ -4,6 +4,12 @@
   background-color: rgb(38, 44, 44);
 }
 
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
 .title {
   font-size: 3rem;
   font-family: 'Orbitron', sans-serif;
