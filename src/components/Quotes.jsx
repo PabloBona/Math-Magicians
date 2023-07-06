@@ -8,7 +8,7 @@ const Quotes = () => {
   useEffect(() => {
     const fetchQuotes = async () => {
       try {
-        const response = await fetch('https://api.api-ninjas.com/v1/quotes?category=happiness1', {
+        const response = await fetch('https://api.api-ninjas.com/v1/quotes?category=happiness', {
           headers: {
             'Content-Type': 'application/json',
             'X-Api-Key': 'gNic433/7fQRomOXE7AZ8Q==r2WSl2KJTQfj1hCK',
