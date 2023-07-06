@@ -1,22 +1,27 @@
-import FirstRowButtons from './FirstRowButtons';
-import FooterButtons from './FooterButtons';
-import ForthRowButton from './ForthRowButtons';
-import SecondRowButtons from './SecondRowButtons';
-import ThirdRowButton from './ThirdRowButtons';
+import React, { useState } from 'react';
+import Display from './Display';
+import RowButtons from './RowButtons';
+import calculate from '../logic/calculate';
 
-const Calculator = () => (
-  <>
-    <div className="row justify-content-center my-3">
-      <div className="col-8 col-6">
-        <div className=" d-flex justify-content-end bg-secondary text-light px-1 py-2">0</div>
+const Calculator = () => {
+  const [calculatorData, setCalculatorData] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  return (
+    <div className="container">
+      <div className="row justify-content-center my-3">
+        <Display calculatorData={calculatorData} />
+        <RowButtons
+          calculatorData={calculatorData}
+          setCalculatorData={setCalculatorData}
+          calculate={calculate}
+        />
       </div>
-      <FirstRowButtons />
-      <SecondRowButtons />
-      <ThirdRowButton />
-      <ForthRowButton />
-      <FooterButtons />
     </div>
-  </>
-);
+  );
+};
 
 export default Calculator;
