@@ -29,34 +29,29 @@ const Quotes = () => {
     fetchQuotes();
   }, []);
 
-  let content = '';
+  let content = null;
   if (isLoading) {
     content = <div className="col-6 d-flex justify-content-center mt-3 bg-primary text-light rounded">Loading...</div>;
   } else if (error) {
     content = <div className="col-6 alert alert-danger">{error}</div>;
-  } else if (quotes.length > 0) {
+  } else {
     content = (
       <div className="row">
         <ul className="col-12 col-md list-group">
-          {quotes.map((quote) => (
-            <li className="p-3 rounded-4 d-flex justify-content-center" key={new Date().getTime().toString()}>
-              <div className="d-flex justify-content-center align-items-center p-5 g-3 bg-success rounded w-60">
-                <div className="text-light bg-success">
-                  &quot;
-                  {quote.quote}
-                  &quot;
-                  <hr className="" />
-                  <div className="d-flex justify-content-center mt-3 bg-success">{quote.author}</div>
-
-                </div>
+          <li className="p-3 rounded-4 d-flex justify-content-center" key={new Date().getTime().toString()}>
+            <div className="d-flex justify-content-center align-items-center p-5 g-3 bg-success rounded w-60">
+              <div className="text-light bg-success">
+                &quot;
+                {quotes[0].quote}
+                &quot;
+                <hr className="" />
+                <div className="d-flex justify-content-center mt-3 bg-success">{quotes[0].author}</div>
               </div>
-            </li>
-          ))}
+            </div>
+          </li>
         </ul>
       </div>
     );
-  } else {
-    content = <li className="col-6 list-group-item text-bg-danger p-3 rounded d-flex justify-content-center">No quotes available!</li>;
   }
 
   return <div className="container d-flex justify-content-center mt-5">{content}</div>;
