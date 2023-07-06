@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const FetchApi = () => {
   const [callApi, setCallApi] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const fetchQuotesRef = useRef(null);
 
   useEffect(() => {
     const fetchQuotes = async () => {
@@ -25,37 +26,44 @@ const FetchApi = () => {
       }
       setIsLoading(false);
     };
-    fetchQuotes();
+
+    if (fetchQuotesRef.current === null) {
+      fetchQuotesRef.current = fetchQuotes;
+      fetchQuotes();
+    }
   }, []);
 
   let content = '';
   if (isLoading) {
-    content = <div className="d-flex justify-content-center mt-3 bg-primary text-light rounded">Loading...</div>;
+    content = <div className="col-6 d-flex justify-content-center mt-3 bg-primary text-light rounded">Loading...</div>;
   } else if (error) {
-    content = <div className="alert alert-danger">{error}</div>;
+    content = <div className="col-6 alert alert-danger">{error}</div>;
   } else if (callApi.length > 0) {
     content = (
-      <ul className="d-flex list-group">
-        {callApi.map((quote) => (
-          <li className="p-3 rounded-4 d-flex justify-content-center" key={new Date().getTime().toString()}>
-            <div className="d-flex justify-content-center align-items-center p-5 g-3 bg-success rounded w-60">
-              <div className="text-light bg-success">
-                &quot;
-                {quote.quote}
-                &quot;
-                <hr className="" />
-                <div className="d-flex justify-content-center mt-3 bg-success">{quote.author}</div>
+      <div className="row">
+        <ul className="col-12 col-md list-group">
+          {callApi.map((quote) => (
+            <li className="p-3 rounded-4 d-flex justify-content-center" key={new Date().getTime().toString()}>
+              <div className="d-flex justify-content-center align-items-center p-5 g-3 bg-success rounded w-60">
+                <div className="text-light bg-success">
+                  &quot;
+                  {quote.quote}
+                  &quot;
+                  <hr className="" />
+                  <div className="d-flex justify-content-center mt-3 bg-success">{quote.author}</div>
+
+                </div>
               </div>
-            </div>
-          </li>
-        ))}
-      </ul>
+            </li>
+          ))}
+        </ul>
+      </div>
     );
   } else {
-    content = <li className="list-group-item text-bg-danger p-3 rounded d-flex justify-content-center">No quotes available!</li>;
+    content = <li className="col-6 list-group-item text-bg-danger p-3 rounded d-flex justify-content-center">No quotes available!</li>;
   }
 
-  return <div className="container mt-5">{content}</div>;
+  return <div className="container d-flex justify-content-center mt-5">{content}</div>;
 };
 
 export default FetchApi;
