@@ -1,10 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Quotes = () => {
   const [quotes, setQuotes] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const fetchQuotesRef = useRef(null);
 
   useEffect(() => {
     const fetchQuotes = async () => {
@@ -27,10 +26,7 @@ const Quotes = () => {
       setIsLoading(false);
     };
 
-    if (fetchQuotesRef.current === null) {
-      fetchQuotesRef.current = fetchQuotes;
-      fetchQuotes();
-    }
+    fetchQuotes();
   }, []);
 
   let content = '';
