@@ -39,7 +39,7 @@ const Quotes = () => {
       <div className="row">
         <ul className="col-12 col-md list-group">
           {quotes.map((quote) => (
-            <li className="p-3 rounded-4 d-flex justify-content-center" key={new Date().getTime().toString()}>
+            <li className="box-quotes rounded-4 d-flex justify-content-center" key={new Date().getTime().toString()}>
               <div className="d-flex justify-content-center align-items-center p-5 g-3 bg-success rounded w-60">
                 <div className="text-light bg-success">
                   &quot;

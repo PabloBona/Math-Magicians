@@ -14,3 +14,9 @@ li {
   font-size: 3rem;
   font-family: 'Orbitron', sans-serif;
 }
+
+.box-quotes {
+  box-shadow: -1px -1px 50px #2a730f;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
