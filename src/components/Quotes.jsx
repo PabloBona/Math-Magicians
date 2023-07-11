@@ -31,7 +31,7 @@ const Quotes = () => {
 
   let content = '';
   if (isLoading) {
-    content = <div className="col-6 d-flex justify-content-center mt-3 bg-primary text-light rounded">Loading...</div>;
+    content = <div className="col-6 d-flex justify-content-center mt-3 backCarrot text-light rounded">Loading...</div>;
   } else if (error) {
     content = <div className="col-6 alert alert-danger">{error}</div>;
   } else if (quotes.length > 0) {
