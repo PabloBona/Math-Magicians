@@ -14,7 +14,7 @@ const Calculator = () => {
     <div className="container">
       <div className="row my-3 text-light flex-column flex-md-row justify-content-center">
         <div className="col-md-6 my-3">
-          <div className="d-flex align-items-center">
+          <div className="d-flex align-items-center justify-content-center">
             {' '}
             <h2 className="align-self-md-center fs-4">
               Let&apos;s do some
