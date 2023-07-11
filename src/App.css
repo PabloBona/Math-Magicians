@@ -19,3 +19,22 @@ li {
   content: "|";
   margin-right: 1rem;
 }
+
+.bg-black,
+h1 {
+  font-family: 'Henny Penny', cursive;
+  background-color: rgb(0, 0, 0);
+}
+
+.header {
+  border-bottom: 4px solid #f5a402;
+}
+
+.carrot {
+  color: #f5a402;
+  background-color: rgb(0, 0, 0);
+}
+
+.carrotColor {
+  color: #f5a402;
+}

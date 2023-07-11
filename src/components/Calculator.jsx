@@ -16,7 +16,11 @@ const Calculator = () => {
         <div className="col-md-6 my-3">
           <div className="d-flex align-items-center">
             {' '}
-            <h2 className="align-self-md-center fs-4">Let&apos;s do some Maths!</h2>
+            <h2 className="align-self-md-center fs-4">
+              Let&apos;s do some
+              {' '}
+              <span className="carrotColor">Maths!</span>
+            </h2>
             <img src={`${process.env.PUBLIC_URL}/magician.png`} className="w-25" alt="Magician" />
           </div>
         </div>

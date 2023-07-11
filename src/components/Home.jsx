@@ -3,7 +3,12 @@ import React from 'react';
 const Home = () => (
   <div className="row text-light">
     <div className="col-10">
-      <h2 className="text-left text-light fs-2 m-3">Welcome to our page!</h2>
+      <h2 className="text-left text-light fs-2 m-3">
+        Welcome to our
+        {' '}
+        <span className="carrotColor">page!</span>
+        {' '}
+      </h2>
       <p className="m-3 fs-6">
         We present to you an app designed specifically for math enthusiasts and
         {' '}
