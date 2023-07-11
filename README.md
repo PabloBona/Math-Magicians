@@ -19,8 +19,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#live-demo)
-  - [🔭 Walk through video](#walk-through-video)
+  - [🚀 Live Demo ](#live-demo-)
   - [💻 Getting Started ](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -28,7 +27,7 @@
     - [Usage](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
+  - [👥 Authors ](#author)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -117,7 +116,7 @@ You may also see any lint errors in the console.
 
 <br>
 
-# 📖 Run tests
+# 📖 Run tests <a name="run-tests"></a>
 
 ```bash
   npm test
@@ -184,7 +183,7 @@ You can deploy this project using: GitHub Pages
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+### 👥 Author <a name="authors"></a>
 
 
 - 👤 **Pablo Bonasera**
