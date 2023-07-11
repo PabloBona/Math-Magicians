@@ -5,7 +5,11 @@
  <h1 style="color:rgb(87, 247, 255);border: 3px solid rgb(87, 247, 255);">Math Magicians</h1>
  <br>
 </div>
-
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./public/screen_1.png" alt="" style="max-width: 300px;" />
+  <img src="./public/screen_2.png" alt="" style="max-width: 300px;" />
+  <img src="./public/screen_3.png" alt="" style="max-width: 300px;" />
+</div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents

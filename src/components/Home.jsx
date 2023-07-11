@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <div className="row text-light">
-    <div className="col-10">
+    <div className="col-12">
       <h2 className="text-left text-light fs-2 m-3">
         Welcome to our
         {' '}
