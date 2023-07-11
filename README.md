@@ -116,7 +116,7 @@ You may also see any lint errors in the console.
 
 <br>
 
-# 📖 Run tests <a name="run-tests"></a>
+# Run tests
 
 ```bash
   npm test
