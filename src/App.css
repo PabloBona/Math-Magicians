@@ -14,3 +14,8 @@ li {
   font-size: 3rem;
   font-family: 'Orbitron', sans-serif;
 }
+
+.separate::before {
+  content: "|";
+  margin-right: 1rem;
+}
