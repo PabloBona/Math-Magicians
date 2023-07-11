@@ -14,9 +14,9 @@ const Header = () => (
       </button>
       <div className="collapse navbar-collapse justify-content-end bg-black" id="navbarNavAltMarkup">
         <div className="navbar-nav bg-black">
-          <a className="nav-link active text-light separate fs-5" aria-current="page" href="/">Home</a>
-          <a className="nav-link text-light separate fs-5" href="/calc"><span className="carrot">Calculator</span></a>
-          <a className="nav-link text-light separate fs-5" href="/quotes">Quotes</a>
+          <a className="nav-link text-light separate fs-5 header-carrot" aria-current="page" href="/">Home</a>
+          <a className="nav-link text-light separate fs-5 header-carrot" href="/calc">Calculator</a>
+          <a className="nav-link text-light separate fs-5 header-carrot" href="/quotes">Quotes</a>
         </div>
       </div>
     </div>
