@@ -175,7 +175,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Deployment
 
-You can deploy this project using: GitHub Pages
+You can deploy this project using: GitHub Pages or Netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
