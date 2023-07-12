@@ -5,7 +5,11 @@
  <h1 style="color:rgb(87, 247, 255);border: 3px solid rgb(87, 247, 255);">Math Magicians</h1>
  <br>
 </div>
-
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./public/screen_1.png" alt="" style="max-width: 300px;" />
+  <img src="./public/screen_2.png" alt="" style="max-width: 300px;" />
+  <img src="./public/screen_3.png" alt="" style="max-width: 300px;" />
+</div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -15,16 +19,13 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#live-demo)
-  - [🔭 Walk through video](#walk-through-video)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
+    - [Install](#-install)
+    - [Usage](#-usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
+  - [👥 Authors ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -113,7 +114,7 @@ You may also see any lint errors in the console.
 
 <br>
 
-# 📖 Run tests
+# Run tests
 
 ```bash
   npm test
@@ -174,13 +175,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Deployment
 
-You can deploy this project using: GitHub Pages
+You can deploy this project using: GitHub Pages or Netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+### 👥 Author <a name="authors"></a>
 
 
 - 👤 **Pablo Bonasera**

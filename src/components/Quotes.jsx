@@ -31,7 +31,7 @@ const Quotes = () => {
 
   let content = '';
   if (isLoading) {
-    content = <div className="col-6 d-flex justify-content-center mt-3 bg-primary text-light rounded">Loading...</div>;
+    content = <div className="col-6 d-flex justify-content-center mt-3 backCarrot text-light rounded">Loading...</div>;
   } else if (error) {
     content = <div className="col-6 alert alert-danger">{error}</div>;
   } else if (quotes.length > 0) {
@@ -39,9 +39,9 @@ const Quotes = () => {
       <div className="row">
         <ul className="col-12 col-md list-group">
           {quotes.map((quote) => (
-            <li className="p-3 rounded-4 d-flex justify-content-center" key={new Date().getTime().toString()}>
+            <li className="p-3 rounded-4 d-flex justify-content-center backCarrot " key={new Date().getTime().toString()}>
               <div className="d-flex justify-content-center align-items-center p-5 g-3 bg-success rounded w-60">
-                <div className="text-light bg-success">
+                <div className="text-light bg-success ">
                   &quot;
                   {quote.quote}
                   &quot;
