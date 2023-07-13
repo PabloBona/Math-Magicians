@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RowButtons component unit test RowButtons Component Renders Properly 1`] = `
+<div
+  className="col-8 col-6 d-flex justify-content-center flex-wrap w-50 bg"
+>
+  <button
+    className="btn btn-light rounded-0 border p-2 w-25 rounded-5 my-1 font-size "
+    onClick={[Function]}
+    type="submit"
+  >
+    AC
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    ±
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    %
+  </button>
+  <button
+    className="btn btn-warning rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    ÷
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    7
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    8
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    9
+  </button>
+  <button
+    className="btn btn-warning rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    x
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    4
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    5
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    6
+  </button>
+  <button
+    className="btn btn-warning rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    -
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    1
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    2
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    3
+  </button>
+  <button
+    className="btn btn-warning rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    +
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-50 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    0
+  </button>
+  <button
+    className="btn btn-light rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    .
+  </button>
+  <button
+    className="btn btn-warning rounded-0 border py-2 w-25 rounded-5 my-1"
+    onClick={[Function]}
+    type="submit"
+  >
+    =
+  </button>
+</div>
+`;
