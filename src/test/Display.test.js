@@ -1,20 +1,17 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { screen, render } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 import Display from '../components/Display';
 
 describe('Display component unit test', () => {
   test('Display Component Renders Properly', () => {
-    const calculatorData = {
-      total: '10',
-      next: '5',
-      operation: '+',
-    };
-    const tree = renderer.create(<Display calculatorData={calculatorData} />).toJSON();
+    const tree = renderer.create(<Display />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  test('Display Component Renders Default Value Properly', () => {
-    const tree = renderer.create(<Display />).toJSON();
-    expect(tree).toMatchSnapshot();
+  test('The Display Component Displays Result', () => {
+    render(<Display calculatorData={{ total: '3.14' }} />);
+    expect(screen.getByText('3.14', { exact: false })).toBeInTheDocument();
   });
 });

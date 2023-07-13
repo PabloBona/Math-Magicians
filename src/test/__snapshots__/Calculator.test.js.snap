@@ -3,6 +3,7 @@
 exports[`Calculator component unit test Calculator Component Renders Properly 1`] = `
 <div
   className="container"
+  data-testid="calculator"
 >
   <div
     className="row my-3 text-light flex-column flex-md-row justify-content-center"

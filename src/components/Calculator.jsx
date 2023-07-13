@@ -11,7 +11,7 @@ const Calculator = () => {
   });
 
   return (
-    <div className="container">
+    <div data-testid="calculator" className="container">
       <div className="row my-3 text-light flex-column flex-md-row justify-content-center">
         <div className="col-md-6 my-3">
           <div className="d-flex align-items-center justify-content-center">

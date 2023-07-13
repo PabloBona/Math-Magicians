@@ -9,7 +9,7 @@ describe('App component unit test', () => {
       .create(
         <MemoryRouter initialEntries={['/calc']}>
           <Routes>
-            <Route path="/calc" element={<App />} />
+            <Route path="/calc/*" element={<App />} />
           </Routes>
         </MemoryRouter>,
       )
@@ -22,7 +22,7 @@ describe('App component unit test', () => {
       .create(
         <MemoryRouter initialEntries={['/quotes']}>
           <Routes>
-            <Route path="/quotes" element={<App />} />
+            <Route path="/quotes/*" element={<App />} />
           </Routes>
         </MemoryRouter>,
       )
@@ -35,7 +35,7 @@ describe('App component unit test', () => {
       .create(
         <MemoryRouter initialEntries={['/']}>
           <Routes>
-            <Route path="/" element={<App />} />
+            <Route path="/*" element={<App />} />
           </Routes>
         </MemoryRouter>,
       )
