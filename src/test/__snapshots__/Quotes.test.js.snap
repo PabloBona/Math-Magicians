@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes component unit test Quotes Component Renders Error State Properly 1`] = `
+<div
+  className="container d-flex justify-content-center mt-5"
+>
+  <div
+    className="col-6 d-flex justify-content-center mt-3 backCarrot text-light rounded"
+  >
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`Quotes component unit test Quotes Component Renders Loading State Properly 1`] = `
+<div
+  className="container d-flex justify-content-center mt-5"
+>
+  <div
+    className="col-6 d-flex justify-content-center mt-3 backCarrot text-light rounded"
+  >
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`Quotes component unit test Quotes Component Renders No Quotes Available State Properly 1`] = `
+<div
+  className="container d-flex justify-content-center mt-5"
+>
+  <div
+    className="col-6 d-flex justify-content-center mt-3 backCarrot text-light rounded"
+  >
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`Quotes component unit test Quotes Component Renders Quotes Properly 1`] = `
+<div
+  className="container d-flex justify-content-center mt-5"
+>
+  <div
+    className="col-6 d-flex justify-content-center mt-3 backCarrot text-light rounded"
+  >
+    Loading...
+  </div>
+</div>
+`;

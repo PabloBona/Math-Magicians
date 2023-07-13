@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component unit test Display Component Renders Default Value Properly 1`] = `
+<div
+  className="col-8 col-6 d-flex justify-content-center"
+>
+  <div
+    className="d-flex justify-content-end text-light px-1 py-2 w-100 mx-5"
+  >
+    0
+  </div>
+</div>
+`;
+
+exports[`Display component unit test Display Component Renders Properly 1`] = `
+<div
+  className="col-8 col-6 d-flex justify-content-center"
+>
+  <div
+    className="d-flex justify-content-end text-light px-1 py-2 w-100 mx-5"
+  >
+    5
+  </div>
+</div>
+`;
