@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 

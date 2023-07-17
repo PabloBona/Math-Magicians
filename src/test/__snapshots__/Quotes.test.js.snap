@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes component unit test Quotes Component Renders Properly 1`] = `
+<div
+  className="container d-flex justify-content-center mt-5"
+>
+  <div
+    className="col-6 d-flex justify-content-center mt-3 backCarrot text-light rounded"
+  >
+    Loading...
+  </div>
+</div>
+`;
